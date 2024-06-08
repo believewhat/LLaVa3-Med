@@ -28,4 +28,4 @@ CUDA_VISIBLE_DEVICES=0 python -m evaluation \
 | Path-VQA              | Token F1 | 64.7      | 62.7 |  64.9†          |
 
 
-Table 2 | Multimodal evaluation. Performance comparison of LLaVa3-Med versus state-of-the-art (SoTA) methods.
+Table 1 | Multimodal evaluation. Performance comparison of LLaVa3-Med versus state-of-the-art (SoTA) methods.
