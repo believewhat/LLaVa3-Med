@@ -2,7 +2,11 @@
 
 Model Link: [LLaVa3-Med](https://huggingface.co/akemiH/LLaVa3-Med)
 
+We apply 3-stages to train our model.
 
+1. Pretraining: We utilize a dataset comprising 600k image-text pairs from PMC and 60k medical references based on Mayo Clinic guidelines for the pretraining phase.
+2. Instruction Fine-tuning: We employ a dataset consisting of 60k LLaVA_Med instruction fine-tuning examples and PMC-VQA datasets to perform instruction learning.
+3. Fine-tuning: Our model undergoes fine-tuning on various VQA datasets.
 
 # Inference
 
