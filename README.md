@@ -16,8 +16,6 @@ CUDA_VISIBLE_DEVICES=0 python -m evaluation \
 
 # Results
 
-# Capabilities of Gemini Models in Medicine
-
 | Task                    | Dataset               | Metric   | Med-Gemini | Med-PaLM-540B | LLaVa3-Med         |
 |-------------------------|-----------------------|----------|------------|------|----------------------|
 | Open/Close-ended VQA    | Slake-VQA             | Token F1 | 87.5      | 89.3 |   89.8†         |
