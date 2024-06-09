@@ -22,6 +22,9 @@ CUDA_VISIBLE_DEVICES=0 python -m evaluation \
 
 # Results
 
+Because GPT-4 has not been fine-tuned on these VQA tasks, the answers it generates for open questions differ significantly in style from the reference answers. Therefore, we employed a few-shot approach and modified GPT-4's answers to match the style of the reference answers.
+
+
 | Dataset               | Metric   | Med-Gemini | Med-PaLM-540B | GPT-4V | LLaVa3-Med|
 |-----------------------|----------|------------|------|------|----------------------|
 | Slake-VQA             | Token F1 | 87.5      | 89.3 | 76.8 |   89.8†         |
