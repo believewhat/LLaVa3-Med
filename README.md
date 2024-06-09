@@ -25,7 +25,7 @@ CUDA_VISIBLE_DEVICES=0 python -m evaluation \
 | Dataset               | Metric   | Med-Gemini | Med-PaLM-540B | GPT-4V | LLaVa3-Med         |
 |-----------------------|----------|------------|------|----------------------|
 | Slake-VQA             | Token F1 | 87.5      | 89.3 | 76.8 |   89.8†         |
-| Path-VQA              | Token F1 | 64.7      | 62.7 | 57,7 |  64.9†          |
+| Path-VQA              | Token F1 | 64.7      | 62.7 | 57.7 |  64.9†          |
 
 
 Table 1 | Multimodal evaluation. Performance comparison of LLaVa3-Med versus state-of-the-art (SoTA) methods.
